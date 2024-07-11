@@ -12,8 +12,17 @@ params:
   showPostNavLinks: true
   showShareButtons: false
 
+taxonomies:
+  tag: "tags"
+  category: "categories"
+  project: "projects"
+
 menu:
   main:
+    - identifier: quotes
+      name: Quotes
+      url: /quotes/
+      weight: 0
     - identifier: categories
       name: Categories
       url: /categories/
